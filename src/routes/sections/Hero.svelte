@@ -39,7 +39,7 @@
             // Create a Geometry
             geometry = new THREE.SphereGeometry(1, 32, 16);
 
-            let texture = new THREE.TextureLoader().load('/rocket-up.png');
+            let texture = new THREE.TextureLoader().load('/launch-up.png');
 
             // Create a Material
             material = new THREE.MeshBasicMaterial({ map: texture });
@@ -105,7 +105,7 @@
 </script>
 
 <div class="hero-section bg-cover bg-fixed h-screen flex justify-between items-center p-8 text-white bg-center bg-no-repeat" 
-     style="background-image: url('../planet.jpg');">
+     style="background-image: url('planet.jpg');">
     <div class="intro w-6/12">
         <h1 class="text-5xl font-bold mb-5">Hello, I'm Dominic DeJesus</h1>
         <p class="text-lg">I transitioned from IT project management to front-end development, leveraging my years of experience in software development and strong JavaScript skills. With a focus on React, Next.js, and Tailwind CSS, I create dynamic and visually appealing user interfaces. My meticulous attention to detail and commitment to delivering exceptional results drive my contributions to complex projects.</p>
