@@ -34,8 +34,8 @@
 
 <div class="experience-section h-screen flex flex-col justify-center items-center px-8 bg-cover bg-fixed bg-center  text-white"
      style="background-image: url('/planet.jpg');">
-    <h2 class="text-5xl font-bold mb-8">Work Experience</h2>
-    <div class="carousel carousel-center max-w-md p-4 space-x-4 bg-base-content rounded-box prose">
+    <h2 class="text-5xl font-bold mb-20">Work Experience</h2>
+    <div class="carousel carousel-center glass max-w-md p-4 space-x-4 bg-base-content rounded-box prose">
         {#each experiences as experience (experience.role)}
             <div class="carousel-item flex flex-col justify-center items-center p-8 text-center text-white rounded {experience.color}">
                 <h3 class="text-3xl font-bold mb-4 text-neutral-content">{experience.role}</h3>

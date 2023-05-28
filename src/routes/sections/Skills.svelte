@@ -35,7 +35,7 @@
 
 <div class="skills-section bg-cover bg-fixed h-screen flex flex-col items-center p-8 text-white bg-center" 
      style="background-image: url('planet.jpg');">
-    <h2 class="text-3xl font-bold mb-10">Skills</h2>
+    <h2 class="text-3xl font-bold mb-24">Skills</h2>
 
     <div class="skills-content flex flex-wrap justify-center">
         {#each skills as skill (skill.title)}
