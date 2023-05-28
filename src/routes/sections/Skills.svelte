@@ -33,21 +33,22 @@
     });
 </script>
 
-<div class="skills-section bg-cover bg-fixed h-screen flex flex-col items-center p-8 text-white bg-center" 
+<div class="skills-section bg-cover bg-fixed h-screen md:h-fit-content flex flex-col items-center p-8 text-white bg-center" 
      style="background-image: url('planet.jpg');">
     <h2 class="text-3xl font-bold mb-24">Skills</h2>
 
-    <div class="skills-content flex flex-wrap justify-center">
-        {#each skills as skill (skill.title)}
-        <div class="card w-34 sm:w-38 lg:w-40 glass mx-auto m-4 lg:m-8">
-                <figure><img src="{skill.image}" alt="{skill.title}"/></figure>
-                <div class="card-body">
-                    <h2 class="card-title">{skill.title}</h2>
-                </div>
+    <div class="skills-content flex flex-col md:flex-row justify-center">
+        {#each skills as skill (skill.id)}
+        <div class="card w-full md:w-1/2 lg:w-1/3 glass mx-auto m-4 lg:m-8">
+            <figure><img src="{skill.image}" alt="{skill.title}"/></figure>
+            <div class="card-body">
+                <h2 class="card-title">{skill.title}</h2>
             </div>
+        </div>
         {/each}
     </div>
 </div>
+
 
 <style>
     @media (max-width: 600px) {
