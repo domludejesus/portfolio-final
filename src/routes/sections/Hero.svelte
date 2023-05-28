@@ -124,16 +124,23 @@
             background-image: url('/planet.jpg');
         }
 
+     
+
+
         .container-model {
-            height: 250px; /* Adjust container height */
+            height: 150px; /* Adjust container height */
         }
 
         .model {
-            height: 250px; /* Adjust model height */
+            height: 150px; /* Adjust model height */
         }
 
         .intro {
             width: 100%; /* Set width to 100% */
+        }
+
+        .intro p {
+            font-size: small;
         }
     }
 </style>
