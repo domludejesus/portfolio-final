@@ -6,6 +6,7 @@
     let camera, scene, renderer;
     let geometry, material, mesh;
     let onWindowResize, onScroll;
+    let animating = true;  // Add this line to hold the animation state
 
     function debounce(func, wait, immediate) {
         var timeout;
@@ -83,13 +84,30 @@
 
             // Create the animation
             const animate = function () {
-                requestAnimationFrame(animate);
-                mesh.rotation.x += 0.005;
-                mesh.rotation.y += 0.005;
-                renderer.render(scene, camera);
+                if (animating) {
+                    requestAnimationFrame(animate);
+                    mesh.rotation.x += 0.005;
+                    mesh.rotation.y += 0.005;
+                    renderer.render(scene, camera);
+                }
             };
 
             animate();
+
+            // Intersection Observer to control the animation state based on visibility
+            const observer = new IntersectionObserver((entries) => {
+                if (entries[0].isIntersecting) {
+                    animating = true;
+                    animate();
+                } else {
+                    animating = false;
+                }
+            }, {
+                threshold: 0.1
+            });
+
+            // Start observing the container
+            observer.observe(container);
         }
     });
 

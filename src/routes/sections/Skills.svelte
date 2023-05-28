@@ -37,7 +37,7 @@
     });
 </script>
 
-<div class="skills-section bg-cover bg-fixed h-screen flex flex-col items-center p-8 text-white bg-center bg-no-repeat" 
+<div class="skills-section bg-cover bg-fixed h-screen flex flex-col items-center p-8 text-white bg-center" 
      style="background-image: url('planet.jpg');">
     <h2 class="text-3xl font-bold mb-10">Skills</h2>
 
@@ -51,7 +51,7 @@
                     <h2 class="card-title text-2xl font-bold">{skill.title}</h2>
                     <p>{skill.description}</p>
                     <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Learn now!</button>
+                        <button class="btn btn-primary">Learn more</button>
                     </div>
                 </div>
             </div>
@@ -67,10 +67,11 @@
 
         .skills-content {
             flex-direction: column;
+            justify-content: center;
         }
 
         .card {
-            width: 100%;
+            width: 50%;
         }
     }
 </style>
