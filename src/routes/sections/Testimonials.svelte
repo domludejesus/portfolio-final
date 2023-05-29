@@ -43,8 +43,7 @@
 <div class="testimonials-section bg-fixed bg-center bg-cover h-screen flex flex-wrap items-center justify-center px-8 py-20 lg:py-32 text-white" 
      style="background-image: url('/planet.jpg');">
     <h2 class="w-full text-center text-5xl font-bold mb-8">Testimonials</h2>
-
-    <div class="carousel glass rounded-box w-full md:w-3/4 lg:w-1/2 overflow-x-scroll overflow-y-hidden whitespace-nowrap py-8 px-4">
+    <div class="carousel glass rounded-box w-full md:w-3/4 lg:w-1/3 whitespace-nowrap overflow-x-scroll py-8 px-4">
         {#each testimonials as testimonial (testimonial.id)}
             <div class="carousel-item w-full md:w-1/2 p-4 inline-block">
                 <div class="bg-base-content rounded-lg p-6 flex flex-col md:flex-row items-center md:items-start text-center md:text-left">

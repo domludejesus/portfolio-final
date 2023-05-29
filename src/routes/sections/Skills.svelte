@@ -33,13 +33,13 @@
     });
 </script>
 
-<div class="skills-section bg-cover bg-fixed h-screen md:h-fit-content flex flex-col items-center p-8 text-white bg-center" 
+<div class="skills-section bg-cover bg-fixed h-screen md:h-fit-content  flex flex-col items-center p-8 text-white bg-center" 
      style="background-image: url('planet.jpg');">
     <h2 class="text-5xl font-bold mt-24 mb-32 sm:mx-28">Skills</h2>
 
     <div class="skills-content flex flex-col md:flex-row justify-center">
         {#each skills as skill (skill.id)}
-        <div class="card w-full md:w-1/2 lg:w-1/3 glass mx-auto m-4 lg:m-8">
+        <div class="card w-full md:w-1/2 lg:w-1/6 glass mx-auto m-4 lg:m-8">
             <figure><img src="{skill.image}" alt="{skill.title}"/></figure>
             <div class="card-body">
                 <h2 class="card-title">{skill.title}</h2>

@@ -136,7 +136,7 @@
 
 <div class="footer-section bg-cover bg-fixed h-screen flex md:flex-row flex-col-reverse justify-between items-center p-8 text-white bg-center" 
      style="background-image: url('planet.jpg');">
-    <div class="contact-form md:w-6/12 w-full text-center">
+    <div class="contact-form md:w-6/12 w-full text-center max-w-xl mx-auto">
         <h2 class="text-5xl font-bold mb-10">Contact Me</h2>
         <div class="bg-secondary text-black p-4 md:p-8 rounded shadow-lg">
             <!-- Contact form goes here -->
