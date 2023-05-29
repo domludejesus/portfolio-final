@@ -61,32 +61,33 @@
     });
 </script>
 
-<div class="projects-section bg-fixed bg-center bg-cover h-screen flex flex-wrap items-center justify-center px-8 text-white" 
+<div class="projects-section bg-fixed bg-center bg-cover min-h-screen px-8 text-white" 
      style="background-image: url('/planet.jpg');">
-    <h2 class=" w-full text-center text-5xl font-bold mt-24 mb-32 sm:max-28">Projects</h2>
+    <h2 class="w-full text-center text-5xl font-bold  mb-32 sm:mx-28">Projects</h2>
 
-    {#each projects as project (project.id)}
-        <!-- Adjusted markup for the card -->
-        <div class="card glass lg:card-side shadow-xl m-4 flex flex-col justify-between">
-            <figure class="w-full">
-                <a href="{project.link}">
-                    <img class="w-full h-48 object-cover transform transition-transform duration-500 ease-in-out hover:scale-105" src="{project.image}" alt="{project.title}">
-                </a>
-            </figure>
-            <div class="card-body">
-                <h3 class="card-title">{project.title}</h3>
-                <p>{project.description}</p>
-                <ul>
-                    {#each project.technologies as tech (tech)}
-                        <li>{tech}</li>
-                    {/each}
-                </ul>
-                <div class="card-actions justify-end">
-                    <a href="{project.link}" class="btn btn-primary hover:bg-blue-700">View Project</a>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"> <!-- Update here -->
+        {#each projects as project (project.id)}
+            <div class="card glass lg:card-side shadow-xl m-4 flex flex-col justify-between">
+                <figure class="w-full">
+                    <a href="{project.link}">
+                        <img class="w-full h-48 object-cover transform transition-transform duration-500 ease-in-out hover:scale-105" src="{project.image}" alt="{project.title}">
+                    </a>
+                </figure>
+                <div class="card-body">
+                    <h3 class="card-title">{project.title}</h3>
+                    <p>{project.description}</p>
+                    <ul>
+                        {#each project.technologies as tech (tech)}
+                            <li>{tech}</li>
+                        {/each}
+                    </ul>
+                    <div class="card-actions justify-end">
+                        <a href="{project.link}" class="btn btn-primary hover:bg-blue-700">View Project</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    {/each}
+        {/each}
+    </div>
 </div>
 
 <style>
