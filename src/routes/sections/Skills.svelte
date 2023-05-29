@@ -35,7 +35,7 @@
 
 <div class="skills-section bg-cover bg-fixed h-screen md:h-fit-content flex flex-col items-center p-8 text-white bg-center" 
      style="background-image: url('planet.jpg');">
-    <h2 class="text-3xl font-bold mb-24">Skills</h2>
+    <h2 class="text-5xl font-bold mt-24 mb-32 sm:mx-28">Skills</h2>
 
     <div class="skills-content flex flex-col md:flex-row justify-center">
         {#each skills as skill (skill.id)}

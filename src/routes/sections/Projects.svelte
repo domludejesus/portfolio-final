@@ -63,13 +63,13 @@
 
 <div class="projects-section bg-fixed bg-center bg-cover h-screen flex flex-wrap items-center justify-center px-8 text-white" 
      style="background-image: url('/planet.jpg');">
-    <h2 class="w-full text-center text-3xl font-bold mb-8">Projects</h2>
+    <h2 class=" w-full text-center text-5xl font-bold mt-24 mb-32 sm:max-28">Projects</h2>
 
     {#each projects as project (project.id)}
-        <div class="card glass lg:card-side  shadow-xl m-4 flex flex- justify-between">
+        <!-- Adjusted markup for the card -->
+        <div class="card glass lg:card-side shadow-xl m-4 flex flex-col justify-between">
             <figure class="w-full">
                 <a href="{project.link}">
-                    <!-- Add the following classes: h-48 object-cover -->
                     <img class="w-full h-48 object-cover transform transition-transform duration-500 ease-in-out hover:scale-105" src="{project.image}" alt="{project.title}">
                 </a>
             </figure>
@@ -90,6 +90,7 @@
 </div>
 
 <style>
+    /* Your existing styles for other screen sizes... */
     @media (max-width: 600px) {
         .projects-section {
             height: auto;
@@ -98,6 +99,22 @@
         .card {
             width: full;
             margin: 2rem;
+        }
+    }
+    /* Styles for medium-sized screens */
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .projects-section {
+            height: auto;
+            margin-bottom: 3rem;  /* Add some space at the bottom to prevent overlap */
+        }
+
+        .card {
+            width: 100%;  /* Make the cards full width */
+            margin: 1rem auto;  /* Center the cards and add some vertical margin */
+        }
+
+        .card img {
+            max-height: 300px;  /* Limit the image height */
         }
     }
 </style>
