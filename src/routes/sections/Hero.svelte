@@ -125,8 +125,8 @@
 <div class="hero-section bg-cover bg-fixed h-screen flex md:flex-row flex-col-reverse justify-between items-center p-8 text-white bg-center bg-no-repeat" 
      style="background-image: url('planet.jpg');">
     <div class="intro md:w-6/12 w-full ">
-        <h1 class="text-5xl font-bold mb-5">Hello, I'm Dominic DeJesus</h1>
-        <p class="text-lg">I transitioned from IT project management to front-end development, leveraging my years of experience in software development and strong JavaScript skills. With a focus on React, Next.js, and Tailwind CSS, I create dynamic and visually appealing user interfaces. My meticulous attention to detail and commitment to delivering exceptional results drive my contributions to complex projects.</p>
+        <h1 class="text-5xl font-bold mb-5">Hello, I'm Dom👋 </h1>
+        <p class="text-lg">A front-end developer, with a specialty with React, Next.js, and Tailwind CSS. I create dynamic and visually appealing user interfaces. Have a project in mind you need help with ? Contact me below</p>
     </div>
     <div class="container-model md:w-1/2 w-full h-60 flex justify-center items-center mt-40 md:mt-0"> 
         <div class="model w-full h-60" bind:this={container}>
