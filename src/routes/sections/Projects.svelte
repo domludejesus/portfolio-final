@@ -6,49 +6,49 @@
             id: 1,
             image: 'consult.png',
             link: 'https://innovaul.com/',
-            title: 'Project 1',
-            description: 'Description of Project 1',
-            technologies: ['Technology 1', 'Technology 2']
+            title: 'IT Marketing Landing Page',
+            description: 'Lead generating landing page for IT consulting small business.',
+            technologies: ['React', 'Next.JS', 'Netlify', 'Firebase', 'Tailwind']
         },
         {
             id: 2,
             image: 'anime-movie.png',
             link: 'https://anime-movie-psi.vercel.app/',
-            title: 'Project 2',
-            description: 'Description of Project 2',
-            technologies: ['Technology 3', 'Technology 4']
+            title: 'Trending Anime Reccomender',
+            description: 'This project presents user with all trending anime currently available. The user can take a quiz to recieve reccomendations on trending anime.',
+            technologies: ['React', 'Next.JS', 'Tailwind CSS', 'Vercel']
         },
         {
             id: 3,
             image: 'little-lemon.png',
             link: 'https://little-pizza-restaurant.vercel.app/',
-            title: 'Project 2',
-            description: 'Description of Project 2',
-            technologies: ['Technology 3', 'Technology 4']
+            title: 'Luxury Pizza Delivery',
+            description: 'A twist on modern pizza delivery services with luxury pizza options. Food delivery service and reservations can be placed by the client.',
+            technologies: ['React', 'Next.JS', 'Tailwind CSS', 'Vercel']
         },
         {
             id: 4,
             image: 'real-estate.png',
             link: 'https://real-estate-finder-xi.vercel.app/',
-            title: 'Project 2',
-            description: 'Description of Project 2',
-            technologies: ['Technology 3', 'Technology 4']
+            title: 'Real Estate Finder',
+            description: 'Finding properties by region has never been easier. Properties are showing by region and if the client wants to add properties they can login.',
+            technologies: ['React', 'Next.JS', 'Tailwind CSS']
         },
         {
             id: 5,
             image: 'pokemon-versus.png',
             link: 'https://versus-weakness-battle.vercel.app',
-            title: 'Project 2',
-            description: 'Description of Project 2',
-            technologies: ['Technology 3', 'Technology 4']
+            title: 'Pokemon Weakness Analyzer',
+            description: 'Pokemon from every generation available to search with filters. Battle Analyzer and Weakness Calculator pages have been added for even more information for your next battle.',
+            technologies: ['React', 'Next.JS', 'Tailwind CSS', 'Pokemon API']
         },
         {
             id: 6,
             image: 'ticket-genie.png',
             link: 'https://genie-ticket-master.vercel.app/',
-            title: 'Project 2',
-            description: 'Description of Project 2',
-            technologies: ['Technology 3', 'Technology 4']
+            title: 'IT Bug Management Tool',
+            description: 'This tool allows teams to collaborate and create tickets for IT issues with SAAS application. Collaboration and sharing with drag and drop functionality.',
+            technologies: ['React', 'Next.JS', 'Tailwind CSS']
         },
         // ... other projects
     ];
@@ -76,13 +76,13 @@
                 <div class="card-body">
                     <h3 class="card-title">{project.title}</h3>
                     <p>{project.description}</p>
-                    <ul>
-                        {#each project.technologies as tech (tech)}
-                            <li>{tech}</li>
-                        {/each}
-                    </ul>
+                        <ul>
+                            {#each project.technologies as tech (tech)}
+                                <li class="btn btn-active btn-ghost no-animation mr-4 mb-2 glass text-white-300 hover:bg-blue-700">{tech}</li>
+                            {/each}
+                        </ul>
                     <div class="card-actions justify-end">
-                        <a href="{project.link}" class="btn btn-primary hover:bg-blue-700">View Project</a>
+                        <a href="{project.link}" class="btn btn-primary hover:bg-blue-700 glass">View Project</a>
                     </div>
                 </div>
             </div>
