@@ -86,8 +86,8 @@
             const animate = function () {
                 if (animating) {
                     requestAnimationFrame(animate);
-                    mesh.rotation.x += 0.005;
-                    mesh.rotation.y += 0.005;
+                    mesh.rotation.x += 0.0015;
+                    mesh.rotation.y += 0.0015;
                     renderer.render(scene, camera);
                 }
             };
@@ -123,7 +123,7 @@
 </script>
 
 <div class="hero-section bg-cover bg-fixed h-screen flex md:flex-row flex-col-reverse justify-between items-center p-8 text-white bg-center bg-no-repeat" 
-     style="background-image: url('planet.jpg');">
+     style="background-image: url('planet-2.png');">
     <div class="intro md:w-6/12 w-full ">
         <h1 class="text-5xl font-bold mb-5">Hello, I'm Dom👋 </h1>
         <p class="text-lg">A front-end developer, with a specialty with React, Next.js, and Tailwind CSS. I create dynamic and visually appealing user interfaces. Have a project in mind you need help with ? Contact me below</p>

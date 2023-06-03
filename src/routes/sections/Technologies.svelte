@@ -89,7 +89,7 @@
 </script>
 
 <div class="technologies-section min-h-screen md:h-auto flex flex-col justify-center items-center px-8 pb-24 bg-cover bg-fixed bg-center  text-white"
-    style="background-image: url('/planet.jpg');">
+    style="background-image: url('/planet-2.png');">
     <h2 class="text-5xl font-bold mt-24 mb-32 sm:mx-28">Technologies</h2>
 
     <div class="grid grid-cols-3 gap-4 sm:grid-cols-6 justify-items-center w-full" style="max-width: 1200px;">
