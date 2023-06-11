@@ -40,7 +40,7 @@
             // Create a Geometry
             geometry = new THREE.SphereGeometry(1, 32, 16);
 
-            let texture = new THREE.TextureLoader().load('/launch-up.png');
+            let texture = new THREE.TextureLoader().load('/launch-up.webp');
 
             // Create a Material
             material = new THREE.MeshBasicMaterial({ map: texture });
@@ -123,7 +123,7 @@
 </script>
 
 <div class="hero-section bg-cover bg-fixed h-screen flex md:flex-row flex-col-reverse justify-between items-center p-8 text-white bg-center bg-no-repeat" 
-     style="background-image: url('planet-2.png');">
+     style="background-image: url('planet-2.webp');">
     <div class="intro md:w-6/12 w-full ">
         <h1 class="text-5xl font-bold mb-5">Hello, I'm Dom👋 </h1>
         <p class="text-lg">A front-end developer, with a specialty with React, Next.js, and Tailwind CSS. I create dynamic and visually appealing user interfaces. Have a project in mind you need help with ? Contact me below</p>

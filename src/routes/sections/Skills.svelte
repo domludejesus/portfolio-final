@@ -4,23 +4,23 @@
     let skills = [
         {
             id: 1,
-            image: 'skills1.png',
+            image: 'skills1.webp',
             title: 'Front-end Development'
         },
         {
             id:2,
-            image: '/skills2.png',
+            image: '/skills2.webp',
             title: 'UX Design'
         },
 
         {
             id:3,
-            image: '/skills3.png',
+            image: '/skills3.webp',
             title: 'Back-end Developer'
         },
         {
             id:4,
-            image: '/skills4.png',
+            image: '/skills4.webp',
             title: 'Content Creator'
         },
     ];
@@ -34,7 +34,7 @@
 </script>
 
 <div class="skills-section bg-cover bg-fixed h-screen md:h-fit-content  flex flex-col items-center p-8 text-white bg-center" 
-     style="background-image: url('planet-2.png');">
+     style="background-image: url('planet-2.webp');">
     <h2 class="text-5xl font-bold mt-24 mb-32 sm:mx-28">Skills</h2>
 
     <div class="skills-content flex flex-col md:flex-row justify-center">

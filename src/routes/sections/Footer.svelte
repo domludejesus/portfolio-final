@@ -49,7 +49,7 @@
             // Create a Geometry
             footerGeometry = new THREE.SphereGeometry(1, 32, 16);
 
-            let texture = new THREE.TextureLoader().load('/city2.png');
+            let texture = new THREE.TextureLoader().load('/city2.webp');
 
             // Create a Material
             footerMaterial = new THREE.MeshBasicMaterial({ map: texture });
@@ -135,7 +135,7 @@
 </script>
 
 <div class="footer-section bg-cover bg-fixed h-screen flex md:flex-row flex-col-reverse justify-between items-center p-8 text-white bg-center" 
-     style="background-image: url('planet-2.png');">
+     style="background-image: url('planet-2.webp');">
     <div class="contact-form md:w-6/12 w-full text-center max-w-xl mx-auto">
         <h2 class="text-5xl font-bold mb-10">Contact Me</h2>
         <div class="bg-secondary text-black p-4 md:p-8 rounded shadow-lg">

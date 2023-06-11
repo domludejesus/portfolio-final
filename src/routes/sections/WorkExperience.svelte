@@ -33,7 +33,7 @@
 </script>
 
 <div class="experience-section h-screen flex flex-col justify-center items-center px-8 bg-cover bg-fixed bg-center  text-white"
-     style="background-image: url('/planet-2.png');">
+     style="background-image: url('/planet-2.webp');">
     <h2 class="text-5xl font-bold mb-20">Work Experience</h2>
     <div class="carousel carousel-center glass max-w-md p-4 space-x-4 bg-base-content rounded-box prose">
         {#each experiences as experience (experience.role)}

@@ -62,7 +62,7 @@
 </script>
 
 <div class="projects-section bg-fixed bg-center bg-cover min-h-screen px-8 text-white" 
-     style="background-image: url('/planet-2.png');">
+     style="background-image: url('/planet-2.webp');">
     <h2 class="text-center text-5xl font-bold  mb-32 px-4 sm:px-8 md:px-16">Projects</h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"> <!-- Update here -->

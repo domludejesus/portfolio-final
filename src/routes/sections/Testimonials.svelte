@@ -41,7 +41,7 @@
 </script>
 
 <div class="testimonials-section bg-fixed bg-center bg-cover h-screen flex flex-wrap items-center justify-center px-8 py-20 lg:py-32 text-white" 
-     style="background-image: url('/planet-2.png');">
+     style="background-image: url('/planet-2.webp');">
     <h2 class="w-full text-center text-5xl font-bold mb-8">Testimonials</h2>
     <div class="carousel glass rounded-box w-full md:w-3/4 lg:w-1/3 whitespace-nowrap overflow-x-scroll py-8 px-4">
         {#each testimonials as testimonial (testimonial.id)}
