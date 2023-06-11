@@ -4,28 +4,28 @@
     let testimonials = [
         {
             id: 1,
-            image: '/person1.jpg',
+            image: '/person1.webp',
             name: 'Person 1',
             role: 'Role 1',
             testimonial: 'Great Work'
         },
         {
             id: 2,
-            image: '/person2.jpg',
+            image: '/person2.webp',
             name: 'Person 2',
             role: 'Role 2',
             testimonial: 'Great Service'
         },
         {
             id: 3,
-            image: '/person3.jpg',
+            image: '/person3.webp',
             name: 'Person 2',
             role: 'Role 2',
             testimonial: 'Great Attitude'
         },
         {
             id: 4,
-            image: '/person4.jpg',
+            image: '/person4.webp',
             name: 'Person 2',
             role: 'Role 2',
             testimonial: 'Great Work Ethic'
@@ -65,11 +65,11 @@
     
 </div>
 
-<style>
+<!-- <style>
     @media (max-width: 600px) {
         .testimonials-section {
             height: auto;
             background-image: url('/astronaut.jpg');
         }
     }
-</style>
+</style> -->

@@ -4,7 +4,7 @@
     let projects = [
         {
             id: 1,
-            image: 'consult.png',
+            image: 'consult.webp',
             link: 'https://innovaul.com/',
             title: 'IT Marketing Landing Page',
             description: 'Lead generating landing page for IT consulting small business.',
@@ -12,7 +12,7 @@
         },
         {
             id: 2,
-            image: 'anime-movie.png',
+            image: 'anime-movie.webp',
             link: 'https://anime-movie-psi.vercel.app/',
             title: 'Trending Anime Reccomender',
             description: 'This project presents user with all trending anime currently available. The user can take a quiz to recieve reccomendations on trending anime.',
@@ -20,7 +20,7 @@
         },
         {
             id: 3,
-            image: 'little-lemon.png',
+            image: 'little-lemon.webp',
             link: 'https://little-pizza-restaurant.vercel.app/',
             title: 'Luxury Pizza Delivery',
             description: 'A twist on modern pizza delivery services with luxury pizza options. Food delivery service and reservations can be placed by the client.',
@@ -28,7 +28,7 @@
         },
         {
             id: 4,
-            image: 'real-estate.png',
+            image: 'real-estate.webp',
             link: 'https://real-estate-finder-xi.vercel.app/',
             title: 'Real Estate Finder',
             description: 'Finding properties by region has never been easier. Properties are showing by region and if the client wants to add properties they can login.',
@@ -36,7 +36,7 @@
         },
         {
             id: 5,
-            image: 'pokemon-versus.png',
+            image: 'pokemon-versus.webp',
             link: 'https://versus-weakness-battle.vercel.app',
             title: 'Pokemon Weakness Analyzer',
             description: 'Pokemon from every generation available to search with filters. Battle Analyzer and Weakness Calculator pages have been added for even more information for your next battle.',
@@ -44,7 +44,7 @@
         },
         {
             id: 6,
-            image: 'ticket-genie.png',
+            image: 'ticket-genie.webp',
             link: 'https://genie-ticket-master.vercel.app/',
             title: 'IT Bug Management Tool',
             description: 'This tool allows teams to collaborate and create tickets for IT issues with SAAS application. Collaboration and sharing with drag and drop functionality.',
