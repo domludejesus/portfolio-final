@@ -13,8 +13,8 @@
         {
             id: 2,
             image: 'anime-movie.webp',
-            link: 'https://anime-movie-psi.vercel.app/',
-            title: 'Trending Anime Reccomender',
+            link: 'https://sustainable-living-guru.vercel.app/',
+            title: 'Sustainable Lifestyle Guru',
             description: 'This project presents user with all trending anime currently available. The user can take a quiz to recieve reccomendations on trending anime.',
             technologies: ['React', 'Next.JS', 'Tailwind CSS', 'Vercel']
         },
@@ -45,8 +45,8 @@
         {
             id: 6,
             image: 'ticket-genie.webp',
-            link: 'https://genie-ticket-master.vercel.app/',
-            title: 'IT Bug Management Tool',
+            link: 'https://virtual-art-gallery-rho.vercel.app/',
+            title: 'Virtual Art Gallery',
             description: 'This tool allows teams to collaborate and create tickets for IT issues with SAAS application. Collaboration and sharing with drag and drop functionality.',
             technologies: ['React', 'Next.JS', 'Tailwind CSS']
         },
